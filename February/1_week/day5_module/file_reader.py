@@ -5,5 +5,3 @@ def read_file(file_path):
             print(file.read())
     except FileNotFoundError:
         print('파일을 찾을 수 없습니다')
-    
-      
